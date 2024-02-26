@@ -1,0 +1,91 @@
+.menuWrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    display: flex;
+    max-height: fit-content;
+    padding-left: 15px;
+    width: -webkit-fill-available;
+  }
+
+  .withBackground {
+    background-color: rgb(13 18 19 / 70%);
+  }
+
+  .logo {
+    position: relative;
+    /*background: url("images/favicon.ico") left top no-repeat;*/
+    display: block;
+    
+  
+  }
+  .logo img {
+    max-width: 80px;
+    height: 80px;
+    padding-top: 10px;
+
+  }
+  
+  .space {
+    flex-grow: 1;
+  }
+  
+  .menu {
+    overflow: hidden;
+    margin-left: auto;
+    display: flex;
+    cursor: pointer;
+  }
+  .menu .link {
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(229, 229, 232);
+  }
+  
+  .dropdown {
+    overflow: hidden;
+  }
+  
+  .dropbtn {
+    color: rgb(229, 229, 232);
+    cursor: pointer;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+  }
+  .menu .link:hover,
+  dropdown:hover,
+  .dropbtn:hover {
+    color: #156e74;
+  }
+  .dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: rgb(13 18 19 / 70%);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  .dropdownContent .link {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdownContent .link:hover {
+    color: #156e74;
+  }
+  
+  .dropdown:hover .dropdownContent {
+    display: block;
+  }

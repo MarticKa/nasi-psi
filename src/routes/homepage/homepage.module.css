@@ -1,0 +1,40 @@
+.cover {
+    height: 1000px;
+    object-fit: cover;
+    width: 100%;
+    margin-top: -125px;
+  }
+  
+  .content {
+    text-align: center;
+    margin: 20px 20px;
+    line-height: 30px;
+    font-size: 20px;
+  }
+  
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    padding: 0 15px 0 15px;
+  }
+  .links {
+    display: flex;
+  }
+  
+  .links a {
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+  }
+  
+  .importantLinks {
+    position: relative;
+    padding-bottom: 30px;
+  }
+  
+  .contactSocial {
+    margin-left: auto;
+    position: relative;
+    padding-top: 30px;
+  }

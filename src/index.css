@@ -1,0 +1,11 @@
+body {
+  margin: 0 auto;
+  color: rgb(75, 102, 108);
+  background-color: rgb(13, 18, 19);
+  -webkit-font-smooting: antialiased;
+  font-family: Poppins;
+}
+
+.page-content {
+  margin-top: 125px;
+}

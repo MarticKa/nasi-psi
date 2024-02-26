@@ -1,0 +1,28 @@
+.content {
+    text-align: center;
+    margin: 20px 20px;
+    line-height: 30px;
+    font-size: 20px;
+  }
+
+h1 {
+    margin-top: 35px;
+}
+
+.imgContent{
+    display: flex;
+    align-items: stretch;
+    
+}
+  .imgContent img {
+    padding-top: 50px;
+    max-width: 400px;
+    max-height: 600px;
+    display: block;
+  }
+
+  .details {
+    text-align: left;
+    padding: 60px 40px 10px 40px;
+    
+  }
