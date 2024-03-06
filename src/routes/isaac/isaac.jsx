@@ -1,10 +1,37 @@
 import { Link } from "react-router-dom";
 import styles from "./isaac.module.css"
+import ImageGalery from "../../components/imageGalery";
+
+const images = [
+    "/images/ariana.png",
+    "/images/background6.jpg",
+    "/images/isaac.jpeg",
+    "/images/rose.jpeg",
+    "/images/kubus.jpeg",
+    "/images/nino.jpeg",
+    "/images/whisky.jpeg",
+    "/images/IMG_7398.png",
+    "/images/ariana.png",
+    "/images/background6.jpg",
+    "/images/isaac.jpeg",
+    "/images/rose.jpeg",
+    "/images/kubus.jpeg",
+    "/images/nino.jpeg",
+    "/images/whisky.jpeg",
+    "/images/IMG_7398.png",
+    "/images/ariana.png",
+    "/images/background6.jpg",
+    "/images/isaac.jpeg",
+    "/images/rose.jpeg",
+    "/images/kubus.jpeg",
+    "/images/nino.jpeg",
+    "/images/whisky.jpeg",
+    "/images/IMG_7398.png",
+  ];
 
 const Isaac = () => {
     return (
         <div className={styles.content}>
-
             <h1>Isaac</h1>
             <article className={styles.imgContent}>
                 <img src="/images/isaac.jpeg" alt="" />
@@ -32,9 +59,7 @@ const Isaac = () => {
             </article>
             <div>
                 <h2>Galerie</h2>
-                <p>
-                    Tady bude ta nejfamoznější galerie fotek, co kdy kdo na webové stránky o psech měl!</p>
-
+                <ImageGalery images={images} />
             </div>
 
             <div>
