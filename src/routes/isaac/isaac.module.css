@@ -1,0 +1,72 @@
+.content {
+    text-align: center;
+    margin: 20px 20px;
+    line-height: 30px;
+    font-size: 20px;
+  }
+  h1, h2, h3, h4 {
+    color: rgb(173, 182, 183);
+  }
+  
+  h1 {
+    margin-top: 35px;
+  }
+  
+  .imgContent {
+    display: flex;
+    align-items: stretch;
+  }
+  .imgContent img {
+    padding-top: 50px;
+    max-width: 400px;
+    max-height: 600px;
+    display: block;
+  }
+  
+  .details {
+    text-align: left;
+    padding: 60px 40px 10px 40px;
+  }
+  .sex {
+    text-align: center;
+  }
+  .sex time:before {
+    content: " • ";
+  }
+  
+  .sex, .bonitace {
+    color: #a0aaac;
+  }
+  
+  .detailsTable {
+    margin-top: 60px;
+  }
+  
+  td {
+    padding-bottom: 20px;
+    padding-left: 40px;
+  }
+  
+  th {
+    padding-bottom: 20px;
+  }
+  
+  th .shows {
+    border: 3px solid;
+    border-color: gray;
+    border-radius: 12px;
+    background-color: #156e74;
+    text-decoration: none;
+    color: rgb(242, 247, 248);
+    padding: 15px;
+  }
+  th .shows:hover {
+    background-color: rgb(128, 128, 128);
+  }
+  
+  h2 {
+    text-align: left;
+    padding: 30px 80px 30px 80px;
+  }
+  
+  

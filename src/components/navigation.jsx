@@ -56,8 +56,6 @@ const Navigation = () => {
                     </div>
                 </div>
         
-                <Link to="/galerie" className={styles.link}>Galerie</Link>
-        
                 <div className={styles.dropdown}>
                     <Link to="/stenatka" className={styles.link}>
                     <button className={`${styles.dropbtn} poppins-semibold`}>Štěňátka</button></Link>

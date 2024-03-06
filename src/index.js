@@ -11,14 +11,15 @@ import './poppins.css';
 import ErrorPage from "./routes/error-page";
 import reportWebVitals from './reportWebVitals';
 import Contact from './routes/contact';
-import Queenie from './routes/queenie';
+import Queenie from './routes/queenie/queenie';
 import Homepage from './routes/homepage/homepage';
 import Layout from './components/layout';
-import Isaac from './routes/isaac';
+import Isaac from './routes/isaac/isaac';
 import Ariana from './routes/ariana/ariana';
 import VrhA from './routes/vrh-a';
 import AboutBreed from './routes/o-plemeni';
 import Puppies from './routes/stenatka';
+import OurDogs from './routes/nasiPsi';
 
 const router = createHashRouter([
   {
@@ -57,6 +58,10 @@ const router = createHashRouter([
       {
         path: "/o-plemeni",
         element: <AboutBreed/>,
+      },
+      {
+        path: "/nasi-psi",
+        element: <OurDogs/>,
       },
     ]
   },
