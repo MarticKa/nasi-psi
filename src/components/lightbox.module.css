@@ -11,12 +11,6 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-
-.open {
-  display: block;
-}
-
-
 .modal {
   display: none;
   position: fixed;
@@ -27,6 +21,10 @@
   overflow: auto;
   max-width: calc(100% - 40px); /* Adjust for padding */
   max-height: calc(100% - 40px); /* Adjust for padding */
+}
+
+.open {
+  display: block;
 }
 
 .modalContent {

@@ -1,5 +1,5 @@
 .imageGaleryContainer {
-  max-width: 1000px;
+  max-width: 80%;
   margin: auto;
 }
 
@@ -35,16 +35,30 @@
   max-height: 400px;
   object-fit: cover;
   position: relative;
-  transition: transform cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+ 
+}
+
+.image:hover {
+  animation: hover 0.5s linear .25s forwards;
+}
+
+@keyframes hover {
+  0% {
+      transform: translate(0px, 0px) scale(1);
+  }
+  100% {
+      transform: translate(0px, -20px) scale(1.05);
+  }
 }
 
 .barContainer {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  z-index: 2;
   justify-content: space-between;
-  margin: 0 350px;
+  max-width: 300px;
+  margin: auto;
 }
 
 .bar {
