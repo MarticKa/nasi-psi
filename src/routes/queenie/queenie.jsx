@@ -1,17 +1,45 @@
 import { Link } from "react-router-dom";
 import styles from "./queenie.module.css"
+import ImageGalery from "../../components/imageGalery";
+
+const images = [
+    "/images/ariana.png",
+    "/images/background6.jpg",
+    "/images/isaac.jpeg",
+    "/images/rose.jpeg",
+    "/images/kubus.jpeg",
+    "/images/nino.jpeg",
+    "/images/whisky.jpeg",
+    "/images/IMG_7398.png",
+    "/images/ariana.png",
+    "/images/background6.jpg",
+    "/images/isaac.jpeg",
+    "/images/rose.jpeg",
+    "/images/kubus.jpeg",
+    "/images/nino.jpeg",
+    "/images/whisky.jpeg",
+    "/images/IMG_7398.png",
+    "/images/ariana.png",
+    "/images/background6.jpg",
+    "/images/isaac.jpeg",
+    "/images/rose.jpeg",
+    "/images/kubus.jpeg",
+    "/images/nino.jpeg",
+    "/images/whisky.jpeg",
+    "/images/IMG_7398.png",
+  ];
 
 const Queenie = () => {
     return (
-        <div className={styles.content}>
+        <div className={styles.queenieContent}>
 
-            <h1>Queenie of Rose Vidnavská záře</h1>
-            <article className={styles.imgContent}>
+            <h1 className={"poppins-extrabold"}>Queenie of Rose Vidnavská záře</h1>
+            <article className={styles.queenieContentInfo}>
                 <img src="/images/queenie.png" alt="" />
                 < div className={styles.details}>
-                    <p className={styles.sex}>♀ fenka <time className={styles.bonitace}>neuchovněna</time></p>
+                    <p className={`${styles.sex} poppins-extralight`}>♀ fenka <time className={styles.bonitace}>neuchovněna</time></p>
 
-                    <table frame="void" rules="none" className={styles.detailsTable}>
+                    <table frame="void" rules="none" className={`${styles.detailsTable} poppins-regular`}>
                         <tbody>
                             <tr>
                                 <th>Datum narození:</th>
@@ -29,28 +57,31 @@ const Queenie = () => {
                                 <th>Speciální vlastnosti:</th>
                                 <td>dámička, rozumná, má ráda svůj klid, vyžaduje blízkost </td>
                             </tr>
-                            <tr>
-                                <th> <Link to="/queenie#shows" className={styles.shows}>Výsledky výstav</Link></th>
-                            </tr>
                         </tbody>
                     </table>
+                    <div>
+                        <Link to="/queenie#shows">
+          
+                            <h5 className={`${styles.shows} poppins-medium`}>
+                                Výsledky výstav <img src="/images/arrow1.png" alt="" />
+                            </h5>
+                        </Link>
+                    </div>
 
                 </div >
             </article>
             <div>
-                <h2>Galerie</h2>
-                <p>
-                    Tady bude ta nejfamoznější galerie fotek, co kdy kdo na webové stránky o psech měl!</p>
-
+                <h2 className={"poppins-semibold"}>Galerie</h2>
+                <ImageGalery images={images} />
             </div>
 
             <div>
-                <h2>Rodiče</h2>
+                <h2 className={"poppins-semibold"}>Rodiče</h2>
                 <div className={styles.parents}>
                     <div className={styles.momContent}>
-                        <h3>♀ Arctic Aivik Furry Rose Vidnavská záře</h3>
-                        <div>Matka</div>
-                        <table frame="void" rules="none" className={styles.detailsTable}>
+                        <h3 className={"poppins-semibold"}>♀ Arctic Aivik Furry Rose Vidnavská záře</h3>
+                        <div className={"poppins-extralight"}>Matka</div>
+                        <table frame="void" rules="none" className={`${styles.detailsTable} poppins-regular`}>
                             <tbody>
                                 <tr>
                                     <th>Datum narození:</th>
@@ -89,9 +120,9 @@ const Queenie = () => {
                         <img className={styles.imgMom} src="/images/rose.jpeg" alt="" />
                     </div>
                     <div className={styles.dadContent}>
-                        <h3>♂ Winnie the pooh of Yarak The glow of the snowy star</h3>
-                        <div>Otec</div>
-                        <table frame="void" rules="none" className={styles.detailsTable}>
+                        <h3 className={"poppins-semibold"}>♂ Winnie the pooh of Yarak The glow of the snowy star</h3>
+                        <div className={"poppins-extralight"}>Otec</div>
+                        <table frame="void" rules="none" className={`${styles.detailsTable} poppins-regular`}>
                             <tbody>
                                 <tr>
                                     <th>Datum narození:</th>
@@ -128,10 +159,15 @@ const Queenie = () => {
                 </div>
             </div>
 
-            <div>
-                <h2 id="shows">Výsledky výstav</h2>
+            <div className={styles.results}>
+                <h2 className={"poppins-semibold"} id="shows">Výsledky výstav</h2>
 
                 <p>Plánujeme 2025, třída veteránů</p>
+                <h3>- třída mimo konkurenci -</h3>
+                <p>20.4.2024, Czech Northern Cup - klubová, Andrzej Szutkiewicz, PL</p>
+                    <p>strong female, very temperament, good size, excellent type, excellent head, good pigmentation, good top and bottom line, correct angulation, correct coat, not correct tail construction, little bit cow hooks rear legs</p>
+                <p>21.4.2024, Czech Northern Cup - klubová, Elaine Walker, IR</p>
+                    <p>7 y.o.female, very pretty head, nice thick ears, nice neck, correct topline, good angles, nice substance and feet, good coat carrying, a little extra weight today, moves well, excellent temperament</p>
             </div>
 
         </div >

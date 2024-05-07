@@ -1,22 +1,24 @@
-.content {
+.queenieContent {
     text-align: center;
-    margin: 20px 20px;
+    max-width: 80%;
+    margin: auto;
     line-height: 30px;
     font-size: 20px;
   }
-  h1, h2, h3, h4 {
-    color: rgb(173, 182, 183);
-  }
   
-  h1 {
+  .queenieContent h1 {
     margin-top: 35px;
   }
+  .queenieContent h2 {
+    padding: 30px 80px 30px 80px;
+    margin-top: 50px;
+  }
   
-  .imgContent {
+  .queenieContentInfo {
     display: flex;
     align-items: stretch;
   }
-  .imgContent img {
+  .queenieContentInfo img {
     padding-top: 50px;
     max-width: 400px;
     max-height: 600px;
@@ -29,13 +31,14 @@
   }
   .sex {
     text-align: center;
+    color: rgb(211, 213, 214);
   }
   .sex time:before {
     content: " • ";
   }
   
   .sex, .bonitace {
-    color: #a0aaac;
+    color: rgb(211, 213, 214);
   }
   
   .detailsTable {
@@ -50,24 +53,27 @@
   th {
     padding-bottom: 20px;
   }
-  
-  th .shows {
-    border: 3px solid;
-    border-color: gray;
-    border-radius: 12px;
-    background-color: #156e74;
-    text-decoration: none;
-    color: rgb(242, 247, 248);
+
+  .shows {
+    color: rgb(211, 213, 214);
     padding: 15px;
+    border-bottom: 1px solid;
+    border-color: rgb(211, 213, 214);
+    max-width: fit-content;
+    display: ruby;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 13.28px;
   }
-  th .shows:hover {
-    background-color: rgb(128, 128, 128);
+  .shows:hover {
+    background-color: rgb(211, 213, 214);
+    color:rgb(13, 18, 19);
+  }
+  .shows:hover img {
+    filter: invert(1);
   }
   
-  h2 {
-    text-align: left;
-    padding: 30px 80px 30px 80px;
-  }
+ 
   .parents {
     display: flex;
     margin: auto;
@@ -87,10 +93,21 @@
     text-align: left;
     padding-right: 100px;
   }
+  .dadContent h3, .momContent h3 {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  .dadContent div, .momContent div {
+    color: rgb(211, 213, 214);
+  }
   .imgDad {
     padding-top: 50px;
     max-width: 400px;
     max-height: 350px;
     display: block;
   }
-  
+  .results h3 {
+    color: #156e74;
+    text-decoration: overline;
+    padding-top: 25px;
+}

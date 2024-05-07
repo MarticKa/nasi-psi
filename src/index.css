@@ -5,7 +5,36 @@ body {
   -webkit-font-smooting: antialiased;
   font-family: Poppins;
 }
+a {
+  text-decoration: none;
+}
+img {
+  border-radius: 10px;
+}
 
 .page-content {
   margin-top: 125px;
 }
+.standard {
+  display: block;
+  text-align: center;
+  max-width: 70%;
+  margin: auto;
+}
+.standard h2, h4 {
+  text-align: center;
+}
+.standard h4 {
+  color: #156e74;
+  text-decoration: overline;
+  font-size: 23px;
+  margin-top: 50px;
+  padding-top: 25px;
+  letter-spacing: 3px;
+}
+
+.standard div {
+  text-align: left;
+  font-size: 20px;
+}
+

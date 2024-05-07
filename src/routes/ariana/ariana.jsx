@@ -1,18 +1,48 @@
 import { Link } from "react-router-dom";
+import "../../poppins.css";
 import styles from "./ariana.module.css"
 import Shows from "./resultShows";
+import ImageGalery from "../../components/imageGalery";
+
+const images = [
+    "/images/ariana.png",
+    "/images/background6.jpg",
+    "/images/isaac.jpeg",
+    "/images/rose.jpeg",
+    "/images/kubus.jpeg",
+    "/images/nino.jpeg",
+    "/images/whisky.jpeg",
+    "/images/IMG_7398.png",
+    "/images/ariana.png",
+    "/images/background6.jpg",
+    "/images/isaac.jpeg",
+    "/images/rose.jpeg",
+    "/images/kubus.jpeg",
+    "/images/nino.jpeg",
+    "/images/whisky.jpeg",
+    "/images/IMG_7398.png",
+    "/images/ariana.png",
+    "/images/background6.jpg",
+    "/images/isaac.jpeg",
+    "/images/rose.jpeg",
+    "/images/kubus.jpeg",
+    "/images/nino.jpeg",
+    "/images/whisky.jpeg",
+    "/images/IMG_7398.png",
+  ];
+
 
 const Ariana = () => {
     return (
-        <div className={styles.content}>
+        <div className={styles.arianaContent}>
 
-            <h1>Ariana of Whisky Vidnavská záře</h1>
-            <article className={styles.imgContent}>
+            <h1 className={"poppins-extrabold"}>Ariana of Whisky Vidnavská záře</h1>
+            <article className={styles.arianaContentInfo}>
                 <img src="/images/ariana.png" alt="" />
                 < div className={styles.details}>
-                    <p className={styles.sex}>♀ fenka <time className={styles.bonitace}>bonitace 10/2024</time></p>
+                    <p className={`${styles.sex} poppins-extralight`}>♀ fenka <time className={styles.bonitace}>bonitace 10/2024</time></p>
 
-                    <table frame="void" rules="none" className={styles.detailsTable}>
+                    <table frame="void" rules="none" className={`${styles.detailsTable} poppins-regular`}>
                         <tbody>
                             <tr>
                                 <th>Datum narození:</th>
@@ -28,38 +58,47 @@ const Ariana = () => {
                             </tr>
                             <tr>
                                 <th>Dogtrek:</th>
-                                <td>Zde jsou lvi, 30.3.2024, 44km</td>
+                                <td>Zde jsou lvi, 30.3.2024, 41km</td>
                             </tr>
                             <tr>
                                 <th></th>
-                                <td>Šlapanický vlk, 14.4.2024, 44km</td>
+                                <td>Šlapanický vlk, 14.4.2024, 46km</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>Krušnohorský dogtrek, 26.4.2024, 92km</td>
                             </tr>
                             <tr>
                                 <th>Speciální vlastnosti:</th>
                                 <td>jemně piškotové ouška, trpělivá, velmi mazlivá, postelová, spáč, učenlivá </td>
                             </tr>
-                            <tr>
-                                <th> <Link to="/ariana#shows" className={styles.shows}>Výsledky výstav</Link></th>
-                            </tr>
                         </tbody>
                     </table>
+                    <div>
+                        <Link to="/ariana#shows">
+          
+                            <h5 className={`${styles.shows} poppins-medium`}>
+                                Výsledky výstav <img src="/images/arrow1.png" alt="" />
+                            </h5>
+                        </Link>
+                    </div>
 
                 </div >
             </article>
             <div>
-                <h2>Galerie</h2>
-                <p>
-                    Tady bude ta nejfamoznější galerie fotek, co kdy kdo na webové stránky o psech měl!</p>
-
+                <div>
+                    <h2 className={"poppins-semibold"}>Galerie</h2>
+                    <ImageGalery images={images} />
+                </div>
             </div>
 
             <div>
-                <h2>Rodiče</h2>
+                <h2 className={"poppins-semibold"}>Rodiče</h2>
                 <div className={styles.parents}>
                     <div className={styles.momContent}>
-                        <h3>♀ Whisky of Pink Vidnavská záře</h3>
-                        <div>Matka</div>
-                        <table frame="void" rules="none" className={styles.detailsTable}>
+                        <h3 className={"poppins-semibold"}>♀ Whisky of Pink Vidnavská záře</h3>
+                        <div className={"poppins-extralight"}>Matka</div>
+                        <table frame="void" rules="none" className={`${styles.detailsTable} poppins-regular`}>
                             <tbody>
                                 <tr>
                                     <th>Datum narození:</th>
@@ -90,9 +129,9 @@ const Ariana = () => {
                         <img className={styles.imgMom} src="/images/whisky.jpeg" alt="" />
                     </div>
                     <div className={styles.dadContent}>
-                        <h3>♂ Nobody stop me Chatanga</h3>
-                        <div>Otec</div>
-                        <table frame="void" rules="none" className={styles.detailsTable}>
+                        <h3 className={"poppins-semibold"}>♂ Nobody stop me Chatanga</h3>
+                        <div className={"poppins-extralight"}>Otec</div>
+                        <table frame="void" rules="none" className={`${styles.detailsTable} poppins-regular`}>
                             <tbody>
                                 <tr>
                                     <th>Datum narození:</th>
@@ -130,7 +169,7 @@ const Ariana = () => {
             </div>
 
             <div>
-                <h2 id="shows">Výsledky výstav</h2>
+                <h2 className={"poppins-semibold"} id="shows">Výsledky výstav</h2>
 
                 <Shows />
             </div>

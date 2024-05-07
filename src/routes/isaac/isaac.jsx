@@ -31,14 +31,14 @@ const images = [
 
 const Isaac = () => {
     return (
-        <div className={styles.content}>
-            <h1>Isaac</h1>
-            <article className={styles.imgContent}>
+        <div className={styles.isaacContent}>
+            <h1 className={"poppins-extrabold"}>Isaac</h1>
+            <article className={styles.isaacContentInfo}>
                 <img src="/images/isaac.jpeg" alt="" />
                 < div className={styles.details}>
-                    <p className={styles.sex}>♂ pes <time className={styles.bonitace}>bez PP</time></p>
+                    <p className={`${styles.sex} poppins-extralight`}>♂ pes <time className={styles.bonitace}>bez PP</time></p>
 
-                    <table frame="void" rules="none" className={styles.detailsTable}>
+                    <table frame="void" rules="none" className={`${styles.detailsTable} poppins-regular`}>
                         <tbody>
                             <tr>
                                 <th>Datum narození:</th>
@@ -58,13 +58,8 @@ const Isaac = () => {
                 </div >
             </article>
             <div>
-                <h2>Galerie</h2>
+                <h2 className={"poppins-semibold"}>Galerie</h2>
                 <ImageGalery images={images} />
-            </div>
-
-            <div>
-                <h2>Rodiče</h2>
-                <div className={styles.parents}>neznámí, původ SK</div>
             </div>
 
         </div >

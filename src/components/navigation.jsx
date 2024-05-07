@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "../poppins.css";
 import styles from './navigation.module.css';
 import { useEffect, useMemo, useState } from "react";
 
@@ -31,7 +32,7 @@ const Navigation = () => {
             <div className={styles.space} />
     
             <div className={styles.menu}>
-                <Link to="/o-plemeni" className={styles.link}>O plemeni Samojed</Link>
+                <Link to="/about" className={styles.link}>O plemeni Samojed</Link>
             
     
                 <div className={styles.dropdown}>

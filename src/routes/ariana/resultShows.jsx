@@ -6,6 +6,18 @@ const Shows = () => {
             <h3 className={styles.thisYear}>- 2024 -</h3>
             <table frame="void" rules='none' className={styles.thisYearTable}>
                 <tbody>
+                <tr>
+                        <td>15.9.</td>
+                        <td>Šumavská mezinárodní výstava Klatovy, CZ</td>
+                        <td>Lenka Frnčová, CZ</td>
+                        <td>xx</td>
+                    </tr>
+                <tr>
+                        <td>1.9.</td>
+                        <td>Floracanis Olomouc, CZ</td>
+                        <td>Petr Řehánek, CZ</td>
+                        <td>xx</td>
+                    </tr>
                     <tr>
                         <td>11.8.</td>
                         <td>Duo CACIB Sopot, PL</td>
@@ -39,7 +51,7 @@ const Shows = () => {
                     <tr>
                         <td>5.7.</td>
                         <td>Dogfestival Veľká Ida, SK</td>
-                        <td>Martin Šipkovský</td>
+                        <td>Martin Šipkovský, SK</td>
                         <td>xx</td>
                     </tr>
                     <tr>
@@ -49,34 +61,40 @@ const Shows = () => {
                         <td>xx</td>
                     </tr>
                     <tr>
+                        <td>23.6.</td>
+                        <td>Intercanis Brno, CZ</td>
+                        <td>Hana Chovancová, CZ</td>
+                        <td>xx</td>
+                    </tr>
+                    <tr>
                         <td>26.5.</td>
                         <td>Mezinárodní výstava Litoměřice, CZ</td>
                         <td>Ladislav Frnčo, CZ</td>
                         <td>xx</td>
                     </tr>
                     <tr>
-                        <td>28.4.</td>
-                        <td>Krajská Hornoslezská výstava Dolní Benešov, CZ</td>
-                        <td>Lenka Frnčová, CZ</td>
-                        <td>xx</td>
+                        <td>4.5.</td>
+                        <td>Krajská Florinka Olomouc, CZ</td>
+                        <td>Antonín Mudra, CZ</td>
+                        <td>V1, vítěz třídy</td>
                     </tr>
                     <tr>
                         <td>21.4.</td>
-                        <td>Klubová výstava Nová Živohošť Klub severských psů, CZ</td>
+                        <td>Czech Northern Cup - klubová, Nová Živohošť, CZ</td>
                         <td>Elaine Walker, IE</td>
-                        <td>xx</td>
+                        <td>V2, res.CAC</td>
                     </tr>
                     <tr>
                         <td>20.4.</td>
-                        <td>Klubová výstava Nová Živohošť Klub severských psů, CZ</td>
+                        <td>Czech Northern Cup - klubová, Nová Živohošť, CZ</td>
                         <td>Andrzej Szutkiewicz, PL</td>
-                        <td>xx</td>
+                        <td>V3</td>
                     </tr>
                     <tr>
                         <td>17.3.</td>
                         <td>Národní výstava Špilberka, CZ</td>
                         <td>Miroslav Václavík, CZ</td>
-                        <td>xx</td>
+                        <td>VD3</td>
                     </tr>
                     <tr>
                         <td>18.2.</td>

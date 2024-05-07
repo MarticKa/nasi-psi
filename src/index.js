@@ -17,9 +17,12 @@ import Layout from './components/layout';
 import Isaac from './routes/isaac/isaac';
 import Ariana from './routes/ariana/ariana';
 import VrhA from './routes/vrh-a';
-import AboutBreed from './routes/o-plemeni';
 import Puppies from './routes/stenatka';
 import OurDogs from './routes/nasiPsi';
+import About from './routes/about';
+import Standard from './routes/standard';
+import Health from './routes/health';
+import Sport from './routes/sport';
 
 const router = createHashRouter([
   {
@@ -56,12 +59,24 @@ const router = createHashRouter([
         element: <VrhA/>,
       },
       {
-        path: "/o-plemeni",
-        element: <AboutBreed/>,
+        path: "/standard",
+        element: <Standard/>,
       },
       {
         path: "/nasi-psi",
         element: <OurDogs/>,
+      },
+      {
+        path: "/about",
+        element: <About/>,
+      },
+      {
+        path: "/health",
+        element: <Health/>,
+      },
+      {
+        path: "/sport",
+        element: <Sport/>,
       },
     ]
   },
