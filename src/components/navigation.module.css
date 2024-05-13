@@ -46,6 +46,11 @@
     text-decoration: none;
     color: rgb(229, 229, 232);
   }
+  .icons {
+    height: 18px;
+    width: 18px;
+    padding-right: 10px;
+  }
   
   .dropdown {
     overflow: hidden;

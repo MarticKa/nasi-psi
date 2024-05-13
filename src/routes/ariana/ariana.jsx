@@ -40,7 +40,10 @@ const Ariana = () => {
             <article className={styles.arianaContentInfo}>
                 <img src="/images/ariana.png" alt="" />
                 < div className={styles.details}>
-                    <p className={`${styles.sex} poppins-extralight`}>♀ fenka <time className={styles.bonitace}>bonitace 10/2024</time></p>
+                    <div className={styles.sex}>
+                        <p className={`${styles.sex} poppins-extralight`}> <img src="/images/female.png" alt="" /></p>
+                        <p className={`${styles.bonitace} poppins-extralight`}>fenka <time>bonitace 9/2024</time></p></div>
+                    
 
                     <table frame="void" rules="none" className={`${styles.detailsTable} poppins-regular`}>
                         <tbody>

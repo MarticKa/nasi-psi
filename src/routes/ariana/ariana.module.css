@@ -31,15 +31,18 @@
   padding: 60px 40px 10px 40px;
 }
 .sex {
-  text-align: center;
+  display: flex;
+  align-items: center;
   color: rgb(211, 213, 214);
+  justify-content: center;
 }
-.sex time:before {
+.sex img {
+  max-width: 25px;
+  max-height: 25px;
+  padding-right: 25px;
+}
+.bonitace time:before {
   content: " • ";
-}
-
-.sex, .bonitace {
-  color: rgb(211, 213, 214);
 }
 
 .detailsTable {

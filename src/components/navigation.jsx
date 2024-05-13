@@ -42,15 +42,15 @@ const Navigation = () => {
         
                     <div className={styles.dropdownContent}>
         
-                    <Link to="/ariana" className={styles.link}>
+                    <Link to="/ariana" className={styles.link}> <img className={styles.icons} src="/images/female-bolt.png" alt="" />
                         Ariana of Whisky Vidnavská záře
                     </Link>
         
-                    <Link to="/queenie" className={styles.link}>
+                    <Link to="/queenie" className={styles.link}> <img className={styles.icons} src="/images/female-bolt.png" alt="" />
                         Queenie of Rose Vidnavská záře
                     </Link>
         
-                    <Link to="/isaac" className={styles.link}>
+                    <Link to="/isaac" className={styles.link}> <img className={styles.icons} src="/images/male-bolt.png" alt="" />
                         Isaac
                     </Link>
         

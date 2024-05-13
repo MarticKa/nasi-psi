@@ -2,7 +2,7 @@ import styles from './resultShows.module.css';
 
 const Shows = () => {
     return (
-        <article>
+        <article className={styles.resultShows}>
             <h3 className={styles.thisYear}>- 2024 -</h3>
             <table frame="void" rules='none' className={styles.thisYearTable}>
                 <tbody>
