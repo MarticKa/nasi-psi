@@ -72,6 +72,14 @@ const Ariana = () => {
                                 <td>Krušnohorský dogtrek, 26.4.2024, 92km</td>
                             </tr>
                             <tr>
+                                <th>Získané tituly:</th>
+                                <td>Krajský vítěz 2024</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>2.místo BIS</td>
+                            </tr>
+                            <tr>
                                 <th>Speciální vlastnosti:</th>
                                 <td>jemně piškotové ouška, trpělivá, velmi mazlivá, postelová, spáč, učenlivá </td>
                             </tr>
@@ -171,8 +179,9 @@ const Ariana = () => {
                 </div>
             </div>
 
-            <div>
+            <div className={styles.showsAriana}>
                 <h2 className={"poppins-semibold"} id="shows">Výsledky výstav</h2>
+                <p className="poppins-extralight">náše cíle: pracovní certifikát, Šampion Česko, Šampion Slovensko, Grand šampion Slovensko, Šampion Polsko, Šampion Finsko, Šampion Nizozemí, Šampion Chorvatsko</p>
 
                 <Shows />
             </div>

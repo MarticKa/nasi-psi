@@ -73,6 +73,12 @@ const Shows = () => {
                         <td>xx</td>
                     </tr>
                     <tr>
+                        <td>19.5.</td>
+                        <td>Krajská výstava Praha, CZ</td>
+                        <td>Ladislav Frnčo, CZ</td>
+                        <td>V1, vítěz třídy, Krajský vítěz, 2.místo BIS feny</td>
+                    </tr>
+                    <tr>
                         <td>4.5.</td>
                         <td>Krajská Florinka Olomouc, CZ</td>
                         <td>Antonín Mudra, CZ</td>

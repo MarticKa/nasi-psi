@@ -1,0 +1,30 @@
+.health {
+    margin: auto;
+    max-width: 80%;
+}
+.health img {
+    height: 450px;
+    width: 300px;
+    margin: 30px;
+}
+.healthNavi {
+    display: flex;
+}
+.healthNavi p {
+    padding-right: 20px;
+}
+.stance {
+    display: flex;
+}
+.running {
+    height: 200px;
+    width: 300px;
+}
+.pastern {
+    height: 110px;
+    width: 300px;
+}
+.tail {
+    height: 300px;
+    width: 500px;
+}
