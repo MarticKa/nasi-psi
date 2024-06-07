@@ -67,9 +67,15 @@ const Shows = () => {
                         <td>xx</td>
                     </tr>
                     <tr>
-                        <td>26.5.</td>
-                        <td>Mezinárodní výstava Litoměřice, CZ</td>
-                        <td>Ladislav Frnčo, CZ</td>
+                        <td>9.6.</td>
+                        <td>Duo CACIB Bytom , PL</td>
+                        <td>Aleksandar Petrovic, RS</td>
+                        <td>xx</td>
+                    </tr>
+                    <tr>
+                        <td>8.6.</td>
+                        <td>Duo CACIB Bytom , PL</td>
+                        <td>Kimmo Mustonen, FI</td>
                         <td>xx</td>
                     </tr>
                     <tr>

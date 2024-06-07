@@ -61,7 +61,7 @@ const Ariana = () => {
                             </tr>
                             <tr>
                                 <th>Dogtrek:</th>
-                                <td>Zde jsou lvi, 30.3.2024, 41km</td>
+                                <td>Zde jsou lvi, 31.3.2024, 41km</td>
                             </tr>
                             <tr>
                                 <th></th>
@@ -69,7 +69,11 @@ const Ariana = () => {
                             </tr>
                             <tr>
                                 <th></th>
-                                <td>Krušnohorský dogtrek, 26.4.2024, 92km</td>
+                                <td>Krušnohorský dogtrek, 28.4.2024, 92km</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>V Srdci česka, 2.6.2024, 50km</td>
                             </tr>
                             <tr>
                                 <th>Získané tituly:</th>
@@ -78,6 +82,10 @@ const Ariana = () => {
                             <tr>
                                 <th></th>
                                 <td>2.místo BIS</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>TD, Pracovní certifikát, 229km</td>
                             </tr>
                             <tr>
                                 <th>Speciální vlastnosti:</th>

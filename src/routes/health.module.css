@@ -3,8 +3,6 @@
     max-width: 80%;
 }
 .health img {
-    height: 450px;
-    width: 300px;
     margin: 30px;
 }
 .healthNavi {
@@ -16,12 +14,21 @@
 .stance {
     display: flex;
 }
+
+.imgDefault {
+    height: 450px;
+    width: 300px;
+}
 .running {
     height: 200px;
     width: 300px;
 }
 .pastern {
     height: 110px;
+    width: 300px;
+}
+.dysplasia {
+    height: 250px;
     width: 300px;
 }
 .tail {

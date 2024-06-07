@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "../poppins.css";
-import styles from "./health.module.css"
+import styles from "./health.module.css";
 
 const Health = () => {
     return (
@@ -15,7 +15,7 @@ const Health = () => {
             <h1>Pohybový aparát</h1>
             <div className={styles.stance}>
               
-              <img src="/images/postoj.gif" alt="" />
+              <img className={styles.imgDefault} src="/images/postoj.gif" alt="" />
               
               <div>
                 <h4>Postoj</h4>
@@ -30,7 +30,7 @@ const Health = () => {
             
             <div className={styles.stance}>
               <div>
-                <img src="/images/pohyb.gif" alt="" />
+                <img className={styles.imgDefault} src="/images/pohyb.gif" alt=""/>
                 <img className={styles.running} src="/images/beh.jpeg" alt="" />
               </div>
               <div>
@@ -54,12 +54,21 @@ const Health = () => {
               
             </div>
             
+            <div className={styles.stance}>
+              <img className={styles.dysplasia}src="/images/dysplazie.jpeg" alt="" />
+              <div>
+                <h4>Dysplazie (DKK)</h4>
+                <p>Může být dědičná, ale také způsobena rychlým růstem štěňátka - vyšší hmotností, nesprávným pohybem i chybějícími minerály a vitamíny ve stravě.</p>
+                <p>Podezření na dysplazii či jiné ortopedické problémy vždy konzultujte se svým veterinářem. Dysplazie je diagnostikována pomocí RTG snímků ve správné poloze psa. Varovné signály by měly být: snížená aktivita, problémy se vstáváním, nechuť k pohybu.</p>
+                <p>Léčba je možná, avšak i přeléčený jedinec by neměl být použit v chovu. Používají se konzervativní metody jako fyzioterapie, protizánětlivé léky, kontrola hmotnosti. Chirurgická léčba dle stádia DKK a stáří psa. </p>
+              </div>
+            </div>
           </div>
 
           <div>
             <h1>Hlava</h1>
             <div>
-              <img src="/images/hlava.gif" alt="" />
+              <img className={styles.imgDefault} src="/images/hlava.gif" alt="" />
             </div>
 
           </div>
