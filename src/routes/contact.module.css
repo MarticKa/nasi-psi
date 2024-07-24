@@ -1,0 +1,12 @@
+.contact {
+    margin: auto;
+    max-width: 80%;
+}
+
+.address {
+    display: block;
+    float: right;
+}
+.phone {
+    display: block;
+}

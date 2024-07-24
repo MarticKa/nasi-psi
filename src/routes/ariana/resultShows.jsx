@@ -7,6 +7,12 @@ const Shows = () => {
             <table frame="void" rules='none' className={styles.thisYearTable}>
                 <tbody>
                 <tr>
+                        <td>21.9.</td>
+                        <td>Klubová výstava Nová Živohošť, CZ</td>
+                        <td>rozhodčí</td>
+                        <td>xx</td>
+                    </tr>
+                <tr>
                         <td>15.9.</td>
                         <td>Šumavská mezinárodní výstava Klatovy, CZ</td>
                         <td>Lenka Frnčová, CZ</td>
@@ -33,50 +39,50 @@ const Shows = () => {
                     <tr>
                         <td>21.7.</td>
                         <td>Národní výstava Mladá Boleslav, CZ</td>
-                        <td>Willi Güllix, DE</td>
-                        <td>xx</td>
+                        <td>Ladislav Frnčo, CZ</td>
+                        <td>VD2</td>
                     </tr>
                     <tr>
                         <td>7.7.</td>
                         <td>Dogfestival Veľká Ida, SK</td>
                         <td>Zuzana Mikolková-Betinská, SK</td>
-                        <td>xx</td>
+                        <td>V1, CAC, CACIB, BOS</td>
                     </tr>
                     <tr>
                         <td>6.7.</td>
                         <td>Dogfestival Veľká Ida, SK</td>
                         <td>Antonín Karban, CZ</td>
-                        <td>xx</td>
+                        <td>V1, CAC, res.CACIB</td>
                     </tr>
                     <tr>
                         <td>5.7.</td>
                         <td>Dogfestival Veľká Ida, SK</td>
                         <td>Martin Šipkovský, SK</td>
-                        <td>xx</td>
+                        <td>V1, CAC</td>
                     </tr>
                     <tr>
                         <td>30.6.</td>
                         <td>Národní Klatovy, CZ</td>
-                        <td>Otto Schimpf, A</td>
-                        <td>xx</td>
+                        <td>Kristina Vaníčková, CZ</td>
+                        <td>VD1</td>
                     </tr>
                     <tr>
                         <td>23.6.</td>
                         <td>Intercanis Brno, CZ</td>
                         <td>Hana Chovancová, CZ</td>
-                        <td>xx</td>
+                        <td>V2, res.CAC</td>
                     </tr>
                     <tr>
                         <td>9.6.</td>
                         <td>Duo CACIB Bytom , PL</td>
                         <td>Aleksandar Petrovic, RS</td>
-                        <td>xx</td>
+                        <td>V2</td>
                     </tr>
                     <tr>
                         <td>8.6.</td>
                         <td>Duo CACIB Bytom , PL</td>
                         <td>Kimmo Mustonen, FI</td>
-                        <td>xx</td>
+                        <td>V3</td>
                     </tr>
                     <tr>
                         <td>19.5.</td>

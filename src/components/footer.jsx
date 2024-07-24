@@ -20,6 +20,14 @@ const Footer = () => {
         </a>
       </div>
       <div className={styles.space}>
+      <div className={styles.importantLinks}>
+        <a target="_blank" href="https://samojed-klub.sk/produkt/samojed-zivot-so-severanom/">
+          <img src="images/Kniha_samojedFB.png" width="90" height="80" alt="Samojed život so severanom" />
+        </a>
+        <a target="_blank" href="https://www.databazeknih.cz/knihy/yoshi-a-my-73378">
+          <img src="images/yoshi.jpg" width="60" height="80" alt="Yoshi a my" />
+        </a>
+      </div>
 
       </div>
       <div className={styles.contactSocial}>

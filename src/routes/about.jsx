@@ -17,7 +17,7 @@ const About = () => {
             ideálního jedince daného plemene. Tedy co nejpřesněji popisuje
             vzhled ideálního představitele daného plemene.
           </p>
-          <Link to="/standard">
+          <Link to="/practic">
           
             <h5 className={`${styles.button} poppins-medium`}>
               Více informací <img src="/images/arrow1.png" alt="" />

@@ -23,6 +23,7 @@ import About from './routes/about';
 import Standard from './routes/standard';
 import Health from './routes/health';
 import Sport from './routes/sport';
+import PracticStandard from './routes/practicStandard';
 
 const router = createHashRouter([
   {
@@ -77,6 +78,10 @@ const router = createHashRouter([
       {
         path: "/sport",
         element: <Sport/>,
+      },
+      {
+        path: "/practic",
+        element: <PracticStandard/>,
       },
     ]
   },

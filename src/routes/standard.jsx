@@ -132,11 +132,11 @@ const Standard = () => {
           Nadloktí: Šikmá a přiléhající k trupu. Přibližně stejně dlouhá jako
           lopatky.
         </p>
-        <p>Lokty: Přiléhající k trupu.</p>
-        <p>Zápěstí: Pevná, ale pružná.</p>
-        <p>Nadprstí: Mírně šikmá.</p>
+        <p> <b>Lokty:</b> Přiléhající k trupu.</p>
+        <p> <b>Zápěstí:</b> Pevná, ale pružná.</p>
+        <p> <b>Nadprstí:</b> Mírně šikmá.</p>
         <p>
-          Přední tlapky: Oválné s dlouhými prsty, pružné a směřující přímo
+          <b>Přední tlapky:</b> Oválné s dlouhými prsty, pružné a směřující přímo
           dopředu. Prsty klenuté, ne příliš těsně sevřené. Polštářky pružné.
         </p>
       </div>
@@ -144,15 +144,15 @@ const Standard = () => {
       <div className="poppins-regular">
         <h4 className="poppins-regular">- PÁNEVNÍ KONČETINY -</h4>
         <p>
-          Celkový vzhled: Při pohledu zezadu rovné a rovnoběžné, s velmi silnými
+          <b>Celkový vzhled:</b> Při pohledu zezadu rovné a rovnoběžné, s velmi silnými
           svaly.
         </p>
-        <p>Stehna: Střední délky, poměrně široká a svalnatá.</p>
-        <p>Kolena: Dobře zaúhlená.</p>
-        <p>Hlezna: Poměrně nízko postavená, dobře zaúhlená.</p>
-        <p>Nárty: Krátké, silné, kolmé a rovnoběžné.</p>
+        <p><b>Stehna:</b> Střední délky, poměrně široká a svalnatá.</p>
+        <p><b>Kolena:</b> Dobře zaúhlená.</p>
+        <p><b>Hlezna:</b> Poměrně nízko postavená, dobře zaúhlená.</p>
+        <p><b>Nárty:</b> Krátké, silné, kolmé a rovnoběžné.</p>
         <p>
-          Zadní tlapky: Stejné jako přední tlapky. Paspárky by měly být
+          <b>Zadní tlapky:</b> Stejné jako přední tlapky. Paspárky by měly být
           odstraněné (kromě v zemích, kde je to zákonem zakázáno).
         </p>
       </div>
@@ -168,7 +168,7 @@ const Standard = () => {
       <div className="poppins-regular">
         <h4 className="poppins-regular">- OSRSTĚNÍ -</h4>
         <p>
-          Srst: Bohatá, silná, pružná a hustá polární srst. Samojed je pes dvojí
+          <b>Srst:</b> Bohatá, silná, pružná a hustá polární srst. Samojed je pes dvojí
           srsti s krátkou, měkkou a hustou podsadou, a delší, hrubší a rovnou
           krycí srstí. Srst má vytvářet límec kolem krku a na plecích, rámující
           hlavu, zvláště u psů (samců). Na hlavě a na přední straně končetin je
@@ -180,7 +180,7 @@ const Standard = () => {
           lesk.
         </p>
         <p>
-          Barva: Čistě bílá, krémová nebo bílá s béžovou - základní barva je
+          <b>Barva:</b> Čistě bílá, krémová nebo bílá s béžovou - základní barva je
           bílá s několika béžovými znaky. Srst nikdy nesmí být světle hnědá (po
           celém těle).
         </p>
@@ -189,7 +189,7 @@ const Standard = () => {
       <div className="poppins-regular">
         <h4 className="poppins-regular">- VÝŠKA -</h4>
         <p>
-          Výška v kohoutku: ideální výška: pes 57 cm s tolerancí ±3 cm, fena 53
+          <b>Výška v kohoutku:</b> ideální výška: pes 57 cm s tolerancí ±3 cm, fena 53
           cm s tolerancí ±3 cm.
         </p>
       </div>

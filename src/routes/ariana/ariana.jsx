@@ -88,6 +88,10 @@ const Ariana = () => {
                                 <td>TD, Pracovní certifikát, 229km</td>
                             </tr>
                             <tr>
+                                <th></th>
+                                <td>Dogfestival Winner 7.7.2024</td>
+                            </tr>
+                            <tr>
                                 <th>Speciální vlastnosti:</th>
                                 <td>jemně piškotové ouška, trpělivá, velmi mazlivá, postelová, spáč, učenlivá </td>
                             </tr>

@@ -1,0 +1,84 @@
+.health {
+    margin: auto;
+    max-width: 80%;
+}
+.health img {
+    margin: 30px;
+}
+.healthNavi {
+    display: flex;
+}
+.healthNavi p {
+    padding-right: 20px;
+}
+h1 {
+    font-size: 32px;
+}
+.health h1, h2, h4 {
+    text-align: center;
+  }
+
+.health h4 {
+    color: #156e74;
+    text-decoration: overline;
+    font-size: 23px;
+    margin-top: 30px;
+    letter-spacing: 3px;
+}
+.stance {
+    overflow: auto;
+    margin-top: 30px;
+}
+.fci {
+    display: flex;
+    justify-content: flex-end;
+
+}
+.button {
+    max-width: fit-content;
+    text-transform: uppercase;
+    border-bottom: 1px solid;
+    letter-spacing: 3px;
+    border-color: rgb(211, 213, 214);
+    color: rgb(211, 213, 214);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 13.28px;
+ }
+.img {
+    height: 450px;
+    width: 300px;
+    display: block;
+}
+
+.floatLeft {
+    float: left;
+    flex-direction: column;
+}
+.floatRight {
+    float: right;
+    flex-direction: column;
+}
+.running {
+    height: 200px;
+    width: 300px;
+    display: block;
+}
+.pastern {
+    height: 110px;
+    width: 300px;
+    display: block;
+}
+.dysplasia {
+    height: 250px;
+    width: 300px;
+    display: block;
+    float: right;
+}
+.tail {
+    height: 300px;
+    width: 500px;
+    display: block;
+    float: right;
+}
