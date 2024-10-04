@@ -7,8 +7,21 @@ const Shows = () => {
             <table frame="void" rules='none' className={styles.thisYearTable}>
                 <tbody>
                 <tr>
-                        <td>21.9.</td>
-                        <td>Klubová výstava Nová Živohošť, CZ</td>
+                        <td>1.12.</td>
+                        <td>Triocacib Prague Expo Dog, CZ</td>
+                        <td>ANtonín Karban, CZ</td>
+                        <td>xx</td>
+                    </tr>
+
+                <tr>
+                        <td>30.11.</td>
+                        <td>Triocacib Prague Expo Dog, CZ</td>
+                        <td>rozhodčí</td>
+                        <td>xx</td>
+                    </tr>
+                <tr>
+                        <td>29.11.</td>
+                        <td>Triocacib Prague Expo Dog, CZ</td>
                         <td>rozhodčí</td>
                         <td>xx</td>
                     </tr>
@@ -16,25 +29,19 @@ const Shows = () => {
                         <td>15.9.</td>
                         <td>Šumavská mezinárodní výstava Klatovy, CZ</td>
                         <td>Lenka Frnčová, CZ</td>
-                        <td>xx</td>
-                    </tr>
-                <tr>
-                        <td>1.9.</td>
-                        <td>Floracanis Olomouc, CZ</td>
-                        <td>Petr Řehánek, CZ</td>
-                        <td>xx</td>
+                        <td>V2, res.CAC</td>
                     </tr>
                     <tr>
                         <td>11.8.</td>
                         <td>Duo CACIB Sopot, PL</td>
-                        <td>rozhodčí</td>
-                        <td>xx</td>
+                        <td>Piotr Król, PL</td>
+                        <td>V1, CAC</td>
                     </tr>
                     <tr>
                         <td>10.8.</td>
                         <td>Duo CACIB Sopot, PL</td>
-                        <td>rozhodčí</td>
-                        <td>xx</td>
+                        <td>Mariola Agata Semik, PL</td>
+                        <td>V1, CAC</td>
                     </tr>
                     <tr>
                         <td>21.7.</td>

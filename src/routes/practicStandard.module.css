@@ -34,6 +34,9 @@ h1 {
     justify-content: flex-end;
 
 }
+.fci img {
+    margin: 0;
+}
 .button {
     max-width: fit-content;
     text-transform: uppercase;
