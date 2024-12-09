@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import "../../poppins.css";
+import "../../index.css";
+import "../../App.css";
 import styles from "./queenie.module.css"
 import ImageGalery from "../../components/imageGalery";
 
@@ -27,7 +30,7 @@ const images = [
     "/images/nino.jpeg",
     "/images/whisky.jpeg",
     "/images/IMG_7398.png",
-  ];
+];
 
 const Queenie = () => {
     return (
@@ -37,7 +40,7 @@ const Queenie = () => {
             <article className={styles.queenieContentInfo}>
                 <img src="/images/queenie.png" alt="" />
                 < div className={styles.details}>
-                    <p className={`${styles.sex} poppins-extralight`}>♀ fenka <time className={styles.bonitace}>neuchovněna</time></p>
+                    <p className={`${styles.sex} poppins-extralight`}>♀ fenka</p>
 
                     <table frame="void" rules="none" className={`${styles.detailsTable} poppins-regular`}>
                         <tbody>
@@ -61,7 +64,7 @@ const Queenie = () => {
                     </table>
                     <div>
                         <Link to="/queenie#shows">
-          
+
                             <h5 className={`${styles.shows} poppins-medium`}>
                                 Výsledky výstav <img src="/images/arrow1.png" alt="" />
                             </h5>
@@ -164,10 +167,16 @@ const Queenie = () => {
 
                 <p>Plánujeme 2025, třída veteránů</p>
                 <h3>- třída mimo konkurenci -</h3>
+                <p>21.9.2024, Specialty northern show - klubovka, Henrik Soeborg, DAN </p>
+                <p>good size and proportions, slightly overweight today,
+                    femmine head, correct bite, good pigmentation, good eyes and ears set,
+                    correct tail, good angulation, strong bone, good feet, moves a little bit
+                    unbalanced, sometimes parallel, sometimes not, good coat texture,
+                    lovely temperament</p>
                 <p>20.4.2024, Czech Northern Cup - klubová, Andrzej Szutkiewicz, PL</p>
-                    <p>strong female, very temperament, good size, excellent type, excellent head, good pigmentation, good top and bottom line, correct angulation, correct coat, not correct tail construction, little bit cow hooks rear legs</p>
+                <p>strong female, very temperament, good size, excellent type, excellent head, good pigmentation, good top and bottom line, correct angulation, correct coat, not correct tail construction, little bit cow hooks rear legs</p>
                 <p>21.4.2024, Czech Northern Cup - klubová, Elaine Walker, IR</p>
-                    <p>7 y.o.female, very pretty head, nice thick ears, nice neck, correct topline, good angles, nice substance and feet, good coat carrying, a little extra weight today, moves well, excellent temperament</p>
+                <p>7 y.o.female, very pretty head, nice thick ears, nice neck, correct topline, good angles, nice substance and feet, good coat carrying, a little extra weight today, moves well, excellent temperament</p>
             </div>
 
         </div >

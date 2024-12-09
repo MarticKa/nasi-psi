@@ -10,20 +10,20 @@ const PracticStandard = () => {
       <article className={styles.health}>
         <div>
           <h1 className="poppins-extrabold">Standard praktickýma očima</h1>
-          
+          <p>Můj pohled na standard, který se víc zaměřuje na správný vývoj již od štěňátka a jak lze předejít některým nešvarům správnou výživou a pohybem během růstu a vývoje. Samozřejmě na všechno má vliv genetika, tu nejsme schopni obejít a spousta věcí není ještě dopodrobna prozkoumána - jak se co přenáší, proč, další vlivy, ob generaci či rovnou potomci. Berte tak prosím text níže s rezervou, není to návod jak si "vypěstovat, vychovat" nejlepšího a nejzdravějšího pejska za každou cenu.  </p>
         </div>
-        <div className={styles.fci}> 
+        <div className={styles.fci}>
           <Link to="/standard">
-          
+
             <h5 className={`${styles.button} poppins-medium`}>
-            Standard dle FCI <img src="/images/arrow1.png" alt="" />
+              Standard dle FCI <img src="/images/arrow1.png" alt="" />
             </h5>
           </Link>
         </div>
 
         <div className={styles.stance}>
           <h2 className="poppins-semibold">Pohybový aparát</h2>
-          
+
           <div className={styles.stance}>
             <div className={styles.floatLeft}>
               <img className={styles.img} src="/images/postoj.gif" alt="" />
@@ -121,7 +121,7 @@ const PracticStandard = () => {
             </div>
             <div>
               <p>
-              Ovlivnit růst ocasu je snad nemožné, ale obecně zda drží ocas nahoře i trochu ano. </p>
+                Ovlivnit růst ocasu je snad nemožné, ale obecně zda drží ocas nahoře i trochu ano. </p>
               <p> Je to sval a musí se používat, aby byl silný a samojed jej držel jak má. </p>
               <p> Zpravidla jedinci žijící na zahradě mají spoustu vjemů a zájmů, to je chvíle dát ocas nahoru = cvičit sval. Čím víc zajimavých vjemů, tím častěji je ocásek nahoře a pěkně visí přes záda, sval se vycvičí a samojedovi tak nečiní problém jej mít správně.
               </p>

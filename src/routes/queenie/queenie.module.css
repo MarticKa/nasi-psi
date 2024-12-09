@@ -31,16 +31,17 @@
   }
   .sex {
     text-align: center;
-    color: rgb(211, 213, 214);
+    display: flex;
+    justify-content: center;
   }
   .sex time:before {
     content: " • ";
   }
-  
-  .sex, .bonitace {
-    color: rgb(211, 213, 214);
+  .sex img {
+    max-width: 25px;
+    max-height: 25px;
+    padding-right: 25px;
   }
-  
   .detailsTable {
     margin-top: 60px;
   }
@@ -55,10 +56,8 @@
   }
 
   .shows {
-    color: rgb(211, 213, 214);
     padding: 15px;
     border-bottom: 1px solid;
-    border-color: rgb(211, 213, 214);
     max-width: fit-content;
     display: ruby;
     text-transform: uppercase;
@@ -66,10 +65,9 @@
     font-size: 13.28px;
   }
   .shows:hover {
-    background-color: rgb(211, 213, 214);
-    color:rgb(13, 18, 19);
+    background-color: #a09b9d;
   }
-  .shows:hover img {
+  .shows img {
     filter: invert(1);
   }
   
@@ -107,7 +105,6 @@
     display: block;
   }
   .results h3 {
-    color: #156e74;
     text-decoration: overline;
     padding-top: 25px;
 }

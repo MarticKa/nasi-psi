@@ -1,7 +1,7 @@
 body {
   margin: 0 auto;
-  color: rgb(143, 186, 193);
-  background-color: rgb(13, 18, 19);
+  color: rgb(58, 54, 57);
+  background-color: rgb(220 214 217);
   -webkit-font-smooting: antialiased;
   font-family: Poppins;
 }
@@ -25,7 +25,7 @@ img {
   text-align: center;
 }
 .standard h4 {
-  color: #156e74;
+  color: rgb(71 23 44);
   text-decoration: overline;
   font-size: 23px;
   margin-top: 50px;

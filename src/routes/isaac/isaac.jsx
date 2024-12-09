@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import "../../poppins.css";
+import "../../index.css";
+import "../../App.css";
 import styles from "./isaac.module.css"
 import ImageGalery from "../../components/imageGalery";
 

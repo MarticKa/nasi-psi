@@ -6,22 +6,12 @@ const Homepage = () => {
             <img src="images/background6.jpg" alt="hav" className={styles.cover} />
             <article class="poppins-regular">
                 <div class={styles.content}>
-                <h1 class="poppins-extrabold">Donut gingerbread dragée cotton candy</h1>
+                <h1 class="poppins-extrabold">MONSTER MAZEL</h1>
                 <p>
-                    Biscuit candy canes topping I love dessert cupcake marshmallow carrot cake lemon drops. Jelly-o cupcake cupcake
-                    wafer chocolate bar gummi bears danish wafer. Jelly-o I love pastry pudding jelly beans muffin chocolate
-                    jelly-o.
-                    Lollipop toffee I love I love brownie chocolate bar jelly beans. Chocolate tiramisu I love muffin I love donut
-                    jelly gummies halvah. Bonbon cake toffee chocolate bar soufflé wafer gummi bears apple pie. Topping pastry jelly
-                    macaroon carrot cake bonbon cupcake. Muffin pastry danish tiramisu I love chocolate cake.
+                    Jsme mladá a malá chovatelská stanice. Naší vizí je kvalitní, zdravý, standardní chov. Pečlivě si vybírat linie ke spojení s ohledem na povahy jedinců, jejich zdraví a pigment, rodové linie a pokud bude potřeba vyvážit vzájemné nedostatky. 
                 </p>
                 <p>
-                    Biscuit candy canes topping I love dessert cupcake marshmallow carrot cake lemon drops. Jelly-o cupcake cupcake
-                    wafer chocolate bar gummi bears danish wafer. Jelly-o I love pastry pudding jelly beans muffin chocolate
-                    jelly-o.
-                    Lollipop toffee I love I love brownie chocolate bar jelly beans. Chocolate tiramisu I love muffin I love donut
-                    jelly gummies halvah. Bonbon cake toffee chocolate bar soufflé wafer gummi bears apple pie. Topping pastry jelly
-                    macaroon carrot cake bonbon cupcake. Muffin pastry danish tiramisu I love chocolate cake.
+                    Filozofie u nás je: havci mají krátký život v porovnání s námi lidmi, proto mají liberálnější výchovu - jen ať si užijí co chtějí, samozřejmě v mezích jejich zdraví a bezpečí. Lenošení na pohovce, spinkání v posteli, cestování na dovolenou..to je naše norma.
                 </p>
                 <p>
                     Biscuit candy canes topping I love dessert cupcake marshmallow carrot cake lemon drops. Jelly-o cupcake cupcake

@@ -30,15 +30,11 @@
   }
   .sex {
     text-align: center;
-    color: rgb(211, 213, 214);
   }
   .sex time:before {
     content: " • ";
   }
   
-  .sex, .bonitace {
-    color: rgb(211, 213, 214);
-  }
   
   .detailsTable {
     margin-top: 60px;

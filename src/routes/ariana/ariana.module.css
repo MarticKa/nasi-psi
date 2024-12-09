@@ -33,7 +33,6 @@
 .sex {
   display: flex;
   align-items: center;
-  color: rgb(211, 213, 214);
   justify-content: center;
 }
 .sex img {
@@ -59,10 +58,8 @@ th {
 }
 
 .shows {
-  color: rgb(211, 213, 214);
   padding: 15px;
   border-bottom: 1px solid;
-  border-color: rgb(211, 213, 214);
   max-width: fit-content;
   display: flex;
   align-items: center;
@@ -71,10 +68,9 @@ th {
   letter-spacing: 3px;
 }
 .shows:hover {
-  background-color: rgb(211, 213, 214);
-  color:rgb(13, 18, 19);
+  background-color: #a09b9d;
 }
-.shows:hover img {
+.shows img {
   filter: invert(1);
 }
 

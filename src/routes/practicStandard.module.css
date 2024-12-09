@@ -19,7 +19,6 @@ h1 {
   }
 
 .health h4 {
-    color: #156e74;
     text-decoration: overline;
     font-size: 23px;
     margin-top: 30px;
@@ -42,13 +41,15 @@ h1 {
     text-transform: uppercase;
     border-bottom: 1px solid;
     letter-spacing: 3px;
-    border-color: rgb(211, 213, 214);
-    color: rgb(211, 213, 214);
     padding: 15px;
     display: flex;
     align-items: center;
     font-size: 13.28px;
  }
+.button:hover {
+    background-color: #a09b9d;
+}
+
 .img {
     height: 450px;
     width: 300px;

@@ -56,8 +56,8 @@ const Navigation = () => {
         
                     </div>
                 </div>
-        
-                <div className={styles.dropdown}>
+                
+                {/*<div className={styles.dropdown}>
                     <Link to="/stenatka" className={styles.link}>
                     <button className={`${styles.dropbtn} poppins-semibold`}>Štěňátka</button></Link>
         
@@ -66,7 +66,8 @@ const Navigation = () => {
                         Vrh A/plánujeme 2025</Link>
                     </div>
         
-                </div>
+                </div>*/}
+                
         
                 <Link to="/kontakty" className={styles.link}>Kontakt</Link>
     

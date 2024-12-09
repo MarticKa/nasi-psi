@@ -16,12 +16,14 @@
     max-width: fit-content;
     text-transform: uppercase;
     border-bottom: 1px solid;
-    letter-spacing: 3px;
-    border-color: rgb(211, 213, 214);
-    color: rgb(211, 213, 214);
+    letter-spacing: 3px;    
     padding: 15px;
     display: flex;
     align-items: center;
+ }
+
+ .button img {
+  filter: invert(1);
  }
 
 .hoverDiv {
@@ -31,7 +33,7 @@
   justify-content: space-between;
 }
  .hoverDiv:hover {
-  background-color: #156e74;
+  background-color: #a09b9d;
  }
 
  .hoverDiv p {
@@ -46,8 +48,13 @@
   border: 2px solid;
   max-width: 50px;
   max-height: 50px;
+  color: whitesmoke;
+}
+
+.icons img {
+  filter: invert(1);
 }
 .icons:hover {
-  background-color: rgb(13, 18, 19);
   border-color: rgb(13, 18, 19);
+  filter: invert(1)
 }

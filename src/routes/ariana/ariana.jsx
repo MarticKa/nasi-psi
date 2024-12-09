@@ -41,8 +41,8 @@ const Ariana = () => {
                 <img src="/images/ariana.png" alt="" />
                 < div className={styles.details}>
                     <div className={styles.sex}>
-                        <p className={`${styles.sex} poppins-extralight`}> <img src="/images/female.png" alt="" /></p>
-                        <p className={`${styles.bonitace} poppins-extralight`}>fenka <time>bonitace 9/2024</time></p></div>
+                        <p className={`${styles.sex} poppins-extralight`}></p>
+                        <p className={`${styles.bonitace} poppins-extralight`}>♀ fenka </p></div>
                     
 
                     <table frame="void" rules="none" className={`${styles.detailsTable} poppins-regular`}>
@@ -53,11 +53,11 @@ const Ariana = () => {
                             </tr>
                             <tr>
                                 <th>Výška:</th>
-                                <td>52,5 cm</td>
+                                <td>51 cm</td>
                             </tr>
                             <tr>
                                 <th>Zdraví:</th>
-                                <td>DKK A/A; DLK 0/0; OCD clear</td>
+                                <td>DKK A/A; DLK 0/0; OCD clear, gonio close 08/2024</td>
                             </tr>
                             <tr>
                                 <th>Dogtrek:</th>
@@ -74,6 +74,10 @@ const Ariana = () => {
                             <tr>
                                 <th></th>
                                 <td>V Srdci česka, 2.6.2024, 50km</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>Za pokladem Voka, 4.10.2024, 104km - nedokončeno 39km</td>
                             </tr>
                             <tr>
                                 <th>Získané tituly:</th>
@@ -193,7 +197,6 @@ const Ariana = () => {
 
             <div className={styles.showsAriana}>
                 <h2 className={"poppins-semibold"} id="shows">Výsledky výstav</h2>
-                <p className="poppins-extralight">náše cíle: pracovní certifikát, Šampion Česko, Šampion Slovensko, Grand šampion Slovensko, Šampion Polsko, Šampion Finsko, Šampion Nizozemí, Šampion Chorvatsko</p>
 
                 <Shows />
             </div>

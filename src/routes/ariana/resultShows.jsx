@@ -1,29 +1,32 @@
+import "../../poppins.css";
+import "../../index.css";
+import "../../App.css";
 import styles from './resultShows.module.css';
 
 const Shows = () => {
     return (
         <article className={styles.resultShows}>
-            <h3 className={styles.thisYear}>- 2024 -</h3>
+            <h4 className={`${styles.thisYear} poppins-regular`}>- 2024 -</h4>
             <table frame="void" rules='none' className={styles.thisYearTable}>
                 <tbody>
                 <tr>
                         <td>1.12.</td>
                         <td>Triocacib Prague Expo Dog, CZ</td>
-                        <td>ANtonín Karban, CZ</td>
-                        <td>xx</td>
+                        <td>Antonín Karban, CZ</td>
+                        <td>V2, res.CAC</td>
                     </tr>
 
                 <tr>
                         <td>30.11.</td>
                         <td>Triocacib Prague Expo Dog, CZ</td>
-                        <td>rozhodčí</td>
-                        <td>xx</td>
+                        <td>Marcelino Pozo Ruiz, ES</td>
+                        <td>V1, CAC</td>
                     </tr>
                 <tr>
                         <td>29.11.</td>
                         <td>Triocacib Prague Expo Dog, CZ</td>
-                        <td>rozhodčí</td>
-                        <td>xx</td>
+                        <td>Miriam Villalta Camacho, ES</td>
+                        <td>VD2</td>
                     </tr>
                 <tr>
                         <td>15.9.</td>
@@ -148,7 +151,7 @@ const Shows = () => {
                 </tbody>
             </table>
 
-            <h3 className={styles.thisYear}>- 2023 -</h3>
+            <h4 className={`${styles.thisYear} poppins-regular`}>- 2023 -</h4>
             <table frame="void" rules='none' className={styles.thisYearTable}>
                 <tbody>
                     <tr>
