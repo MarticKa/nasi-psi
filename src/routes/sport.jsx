@@ -8,6 +8,7 @@ const Sport = () => {
   return (
     <>
       <article className={styles.main}>
+        <h1 className="poppins-extrabold">Sport</h1>
         <div>
           <p>Ať budete s vašim hafíkem dělat jakýkoli sport, vždy myslete původ rasy. Samojed nepatří např. mezi vodní psy, nebo lovecké, jejich historické určení bylo jiné a proto budou přirozeně šikovní a víc inklinovat k tomuto pohybu. Čest výjimkám, ale ještě jsem neviděla samojeda s radostí plavat. </p>
           <p>Považuju za nutné zmínit a apelovat na vhodnost povrchu a počasí, pro jakoukoli aktivitu.</p>

@@ -32,7 +32,8 @@ const Navigation = () => {
             <div className={styles.space} />
     
             <div className={styles.menu}>
-                <Link to="/about" className={styles.link}>O plemeni Samojed</Link>
+                <Link to="/about-samojed" className={styles.link}>O plemeni Samojed</Link>
+                <Link to="/about-lapphund" className={styles.link}>O plemeni Svensk lapphund</Link>
             
     
                 <div className={styles.dropdown}>

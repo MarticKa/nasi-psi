@@ -19,11 +19,15 @@ import Ariana from './routes/ariana/ariana';
 import VrhA from './routes/vrh-a';
 import Puppies from './routes/stenatka';
 import OurDogs from './routes/nasiPsi';
-import About from './routes/about';
+import About from './routes/about-samojed';
 import Standard from './routes/standard';
+import StandardLap from './routes/standard-lapphund';
 import Health from './routes/health';
 import Sport from './routes/sport';
+import SportLap from './routes/sport-lapphund';
 import PracticStandard from './routes/practicStandard';
+import AboutLap from './routes/about-lapphund';
+
 
 const router = createHashRouter([
   {
@@ -64,12 +68,20 @@ const router = createHashRouter([
         element: <Standard/>,
       },
       {
+        path: "/standard-lapphund",
+        element: <StandardLap/>,
+      },
+      {
         path: "/nasi-psi",
         element: <OurDogs/>,
       },
       {
-        path: "/about",
+        path: "/about-samojed",
         element: <About/>,
+      },
+      {
+        path: "/about-lapphund",
+        element: <AboutLap/>,
       },
       {
         path: "/health",
@@ -78,6 +90,10 @@ const router = createHashRouter([
       {
         path: "/sport",
         element: <Sport/>,
+      },
+      {
+        path: "/sport-lapphund",
+        element: <SportLap/>,
       },
       {
         path: "/practic",
