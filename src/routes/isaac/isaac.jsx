@@ -6,30 +6,11 @@ import styles from "./isaac.module.css"
 import ImageGalery from "../../components/imageGalery";
 
 const images = [
-    "/images/ariana.png",
-    "/images/background6.jpg",
+   "/images/izous.jpeg",
     "/images/isaac.jpeg",
-    "/images/rose.jpeg",
-    "/images/kubus.jpeg",
-    "/images/nino.jpeg",
-    "/images/whisky.jpeg",
-    "/images/IMG_7398.png",
-    "/images/ariana.png",
-    "/images/background6.jpg",
-    "/images/isaac.jpeg",
-    "/images/rose.jpeg",
-    "/images/kubus.jpeg",
-    "/images/nino.jpeg",
-    "/images/whisky.jpeg",
-    "/images/IMG_7398.png",
-    "/images/ariana.png",
-    "/images/background6.jpg",
-    "/images/isaac.jpeg",
-    "/images/rose.jpeg",
-    "/images/kubus.jpeg",
-    "/images/nino.jpeg",
-    "/images/whisky.jpeg",
-    "/images/IMG_7398.png",
+    "/images/izous2.jpeg",
+    "/images/izous3.jpeg",
+    
   ];
 
 const Isaac = () => {

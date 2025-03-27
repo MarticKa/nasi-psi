@@ -98,9 +98,6 @@ th {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
-.dadContent div, .momContent div {
-  color: rgb(211, 213, 214);
-}
 .imgDad {
   padding-top: 10px;
   max-width: 400px;

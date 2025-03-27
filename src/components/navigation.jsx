@@ -27,7 +27,7 @@ const Navigation = () => {
     return (
         <div className={navigationClass}>
             <div className={styles.logo}>
-                <Link to="/" className={styles.link}><img className={styles.logo} src="/images/favicon.png"/> </Link>
+                <Link to="/" className={styles.link}><img className={styles.logo} src="/images/logo_3.jpg"/> </Link>
             </div>
             <div className={styles.space} />
     
@@ -49,6 +49,10 @@ const Navigation = () => {
         
                     <Link to="/queenie" className={styles.link}> <img className={styles.icons} src="/images/female-bolt.png" alt="" />
                         Queenie of Rose Vidnavská záře
+                    </Link>
+
+                    <Link to="/lilith" className={styles.link}> <img className={styles.icons} src="/images/female-bolt.png" alt="" />
+                        Follow the Light "Lilith" Woven by Frigg
                     </Link>
         
                     <Link to="/isaac" className={styles.link}> <img className={styles.icons} src="/images/male-bolt.png" alt="" />

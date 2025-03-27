@@ -1,0 +1,11 @@
+.resultShows {
+    margin: auto;
+    max-width: 80%;
+}
+.thisYear {
+    text-decoration: overline;
+}
+
+.thisYearTable {
+   display: inline;
+}

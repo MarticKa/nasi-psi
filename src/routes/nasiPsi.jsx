@@ -4,29 +4,25 @@ import ImageGalery from "../components/imageGalery";
 
 const images = [
   "/images/ariana.png",
-  "/images/background6.jpg",
   "/images/isaac.jpeg",
-  "/images/rose.jpeg",
-  "/images/kubus.jpeg",
-  "/images/nino.jpeg",
-  "/images/whisky.jpeg",
-  "/images/IMG_7398.png",
-  "/images/ariana.png",
-  "/images/background6.jpg",
-  "/images/isaac.jpeg",
-  "/images/rose.jpeg",
-  "/images/kubus.jpeg",
-  "/images/nino.jpeg",
-  "/images/whisky.jpeg",
-  "/images/IMG_7398.png",
-  "/images/ariana.png",
-  "/images/background6.jpg",
-  "/images/isaac.jpeg",
-  "/images/rose.jpeg",
-  "/images/kubus.jpeg",
-  "/images/nino.jpeg",
-  "/images/whisky.jpeg",
-  "/images/IMG_7398.png",
+  "/images/queenie30.jpeg",
+  "/images/galerie.jpeg",
+  "/images/galerie2.jpeg",
+  "/images/galerie3.jpeg",
+  "/images/galerie4.jpeg",
+  "/images/galerie5.jpeg",
+  "/images/galerie6.jpeg",
+  "/images/galerie7.jpeg",
+  "/images/galerie8.jpeg",
+  "/images/galerie9.jpeg",
+  "/images/galerie10.jpeg",
+  "/images/galerie11.jpeg",
+  "/images/galerie12.jpeg",
+  "/images/galerie13.jpeg",
+  "/images/galerie14.jpeg",
+  "/images/galerie15.jpeg",
+  "/images/galerie16.jpeg",
+  
 ];
 
 const OurDogs = () => {
@@ -43,6 +39,10 @@ const OurDogs = () => {
         </div>
         <div> 
           <Link to="/isaac"> <h2 className={`${styles.invisibleButto} poppins-semibold`}>♂ Isaac</h2> <img src="/images/isaac.jpeg" alt="" /></Link>
+          
+        </div>
+        <div> 
+          <Link to="/lilith"> <h2 className={`${styles.invisibleButto} poppins-semibold`}>♀ Follow the Light "Lilith" Woven by Frigg </h2> <img src="/images/lili.jpeg" alt="" /></Link>
           
         </div>
       </article>

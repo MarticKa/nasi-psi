@@ -1,4 +1,4 @@
-.queenieContent {
+.arianaContent {
     text-align: center;
     max-width: 80%;
     margin: auto;
@@ -6,20 +6,21 @@
     font-size: 20px;
   }
   
-  .queenieContent h1 {
+  .arianaContent h1 {
     margin-top: 35px;
   }
-  .queenieContent h2 {
+  
+  .arianaContent h2 {
+    text-align: center;
     padding: 30px 80px 30px 80px;
     margin-top: 50px;
   }
   
-  .queenieContentInfo {
+  .arianaContentInfo {
     display: flex;
     align-items: stretch;
   }
-  .queenieContentInfo img {
-    padding-top: 50px;
+  .arianaContentInfo img {
     max-width: 400px;
     max-height: 600px;
     display: block;
@@ -30,18 +31,19 @@
     padding: 60px 40px 10px 40px;
   }
   .sex {
-    text-align: center;
     display: flex;
+    align-items: center;
     justify-content: center;
-  }
-  .sex time:before {
-    content: " • ";
   }
   .sex img {
     max-width: 25px;
     max-height: 25px;
     padding-right: 25px;
   }
+  .bonitace time:before {
+    content: " • ";
+  }
+  
   .detailsTable {
     margin-top: 60px;
   }
@@ -54,15 +56,16 @@
   th {
     padding-bottom: 20px;
   }
-
+  
   .shows {
     padding: 15px;
     border-bottom: 1px solid;
     max-width: fit-content;
-    display: ruby;
+    display: flex;
+    align-items: center;
+    font-size: 13.28px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 13.28px;
   }
   .shows:hover {
     background-color: #a09b9d;
@@ -71,7 +74,7 @@
     filter: invert(1);
   }
   
- 
+  
   .parents {
     display: flex;
     margin: auto;
@@ -81,12 +84,7 @@
     text-align: left;
     padding-left: 100px;
   }
-  .imgMom {
-    padding-top: 10px;
-    max-width: 400px;
-    max-height: 350px;
-    display: block;
-  }
+  
   .dadContent {
     text-align: left;
     padding-right: 100px;
@@ -97,12 +95,9 @@
   }
 
   .imgDad {
-    padding-top: 50px;
-    max-width: 400px;
-    max-height: 350px;
-    display: block;
+    justify-content: center;
   }
-  .results h3 {
-    text-decoration: overline;
-    padding-top: 25px;
-}
+   .showsAriana p{
+    color: rgb(211, 213, 214);
+    font-size: 16px;
+   }

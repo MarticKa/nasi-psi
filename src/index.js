@@ -16,6 +16,7 @@ import Homepage from './routes/homepage/homepage';
 import Layout from './components/layout';
 import Isaac from './routes/isaac/isaac';
 import Ariana from './routes/ariana/ariana';
+import Lilith from './routes/lilith/lilith';
 import VrhA from './routes/vrh-a';
 import Puppies from './routes/stenatka';
 import OurDogs from './routes/nasiPsi';
@@ -58,6 +59,10 @@ const router = createHashRouter([
       {
         path: "/ariana",
         element: <Ariana/>,
+      },
+      {
+        path: "/lilith",
+        element: <Lilith/>,
       },
       {
         path: "/vrh-a",
