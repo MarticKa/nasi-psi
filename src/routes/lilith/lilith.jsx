@@ -62,7 +62,7 @@ const Lilith = () => {
                         </tbody>
                     </table>
                     <div>
-                        <Link to="/ariana#shows">
+                        <Link to="/lilith#shows">
           
                             <h5 className={`${styles.shows} poppins-medium`}>
                                 Výsledky výstav <img src="/images/arrow1.png" alt="" />

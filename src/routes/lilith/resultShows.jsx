@@ -11,7 +11,7 @@ const Shows = () => {
                 <tbody>
                 <tr>
                         <td>13.4.</td>
-                        <td>EVropská výstava, CZ</td>
+                        <td>Evropská výstava, CZ</td>
                         <td>Mitrevski Stefan, Makedonie</td>
                         <td>VN1</td>
                     </tr>

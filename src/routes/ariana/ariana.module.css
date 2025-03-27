@@ -68,7 +68,7 @@ th {
   letter-spacing: 3px;
 }
 .shows:hover {
-  background-color: #a09b9d;
+  background-color: rgb(85 101 128 / 95%);
 }
 .shows img {
   filter: invert(1);
